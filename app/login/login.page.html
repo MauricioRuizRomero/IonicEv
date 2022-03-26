@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button color="primary">
+        
+      </ion-button>
+    </ion-buttons>
+  
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div id="header">
+    <h1>Login</h1>
+    <img src="assets/logo.png" />
+  </div>
+
+  <form id="form">
+    <app-input placeholder="Username"></app-input>
+    <app-input type="password" placeholder="Password"></app-input>
+    <ion-button [routerLink]="['/tabs']" id="loginb" expand="block" shape="round">Login</ion-button>
+  </form>
+</ion-content>

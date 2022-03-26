@@ -1,0 +1,47 @@
+<ion-header>
+  <ion-toolbar>
+  <ion-buttons slot="end">
+    <ion-button [routerLink]="['/report']">Report Page</ion-button>
+  </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-list-header> Favorite games </ion-list-header>
+
+    <ion-item [routerLink]="['/tloz']">
+      <ion-avatar slot="start">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvpkt-p-gpU_4k4srKywNpCixvuBcUHNxifw&usqp=CAU" />
+      </ion-avatar>
+      <ion-label>
+        <h2>The legend of Zelda</h2>
+        <h3>Nintendo</h3>
+        <p>The flow of time is always cruel...</p>
+      </ion-label>
+    </ion-item>
+
+    <ion-item [routerLink]="['/cbd']">
+      <ion-avatar slot="start">
+        <img src="https://www.pngitem.com/pimgs/m/422-4226028_conker-artwork-conker-conkers-bad-fur-day-png.png" />
+      </ion-avatar>
+      <ion-label>
+        <h2>Conker's Bad Fur Day</h2>
+        <h3>Nintendo</h3>
+        <p>A Bounce? Okay, Now This Is What I Call A Platform Game!</p>
+      </ion-label>
+    </ion-item>
+
+    <ion-item [routerLink]="['/halo']">
+      <ion-avatar slot="start">
+        <img src="https://i2.wp.com/codigoespagueti.com/wp-content/uploads/2022/03/La-serie-de-Halo-por-fin-revela-la-apariencia-de-Master-Chief-sin-su-casco-spoiler-e1648137345543.jpg?fit=1280%2C710&quality=80&ssl=1" />
+      </ion-avatar>
+      <ion-label>
+        <h2>Halo</h2>
+        <h3>Xbox</h3>
+        <p>Yes sir, I need a weapon.</p>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+
+</ion-content>

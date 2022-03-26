@@ -1,0 +1,42 @@
+ion-toolbar {
+    --background: #FFD32D;
+}
+
+ion-content {
+    --background: #005B58;
+
+    #header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h1 {
+            font-weight: 700;
+            font-size: 26px;
+            color: #ffffff;
+            margin-bottom: 15%;
+        }
+
+        img{
+            width: 125px;
+            height: 125px;
+            border-radius: 50%;
+            
+        }
+    }
+
+    #form {
+        margin-top: 20px;
+        padding-left: 50px;
+        padding-right: 50px;
+
+    }
+    #loginb{
+        margin-top: 40px;
+        padding-left: 50px;
+        padding-right: 50px;
+        text-transform: initial;
+    
+        --box-shadow:none;
+    }
+}

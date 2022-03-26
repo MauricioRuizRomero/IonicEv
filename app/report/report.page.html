@@ -1,0 +1,43 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Report Page</ion-title>
+    <ion-button [routerLink]="['/tabs']" fill="clear">
+      <ion-icon name="arrow-back-outline"></ion-icon>
+    </ion-button>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  
+  <ion-app>
+    
+
+    <ion-content class="outer-content">
+
+      <ion-list>
+        <ion-list-header>
+          <ion-label>Progress in Halo 100%</ion-label>
+        </ion-list-header>
+        <ion-progress-bar color="success"id="halo" value="1.0"></ion-progress-bar>
+      </ion-list>
+
+      <ion-list>
+        <ion-list-header>
+          <ion-label>Progress in The legend of Zelda 50%</ion-label>
+        </ion-list-header>
+        <ion-progress-bar color="medium"id="tloz" value="0.5"></ion-progress-bar>
+      </ion-list>
+
+      <ion-list>
+        <ion-list-header>
+          <ion-label>Conker's Bad Fur Day 35%</ion-label>
+        </ion-list-header>
+        <ion-progress-bar color="warning" id="cbd" value="0.35"></ion-progress-bar>
+      </ion-list>
+      <ion-item>
+        <img src="../../assets/flow.png"/> 
+      </ion-item>
+    </ion-content>
+  </ion-app>
+  
+</ion-content>
